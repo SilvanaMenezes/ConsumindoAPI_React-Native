@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.buscadorcep.app-mergeDebugResources-26:/values-sr/values-sr.xml",
+            "outputFile": "com.buscadorcep.app-mergeDebugResources-2:/values-sr/values-sr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\thini\\.gradle\\caches\\transforms-3\\b3627ca143232ec2ceb6e319eb18971d\\transformed\\appcompat-1.6.1\\res\\values-sr\\values-sr.xml",

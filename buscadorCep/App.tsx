@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import {StyleSheet, View , Image, TextInput, TouchableOpacity, Text, Alert} from "react-native"
-import Api from "./src/services/Api"
+import api from "./src/services/api"
 
 export default function App(){
   const [cep, setCep] = useState("")
@@ -11,13 +11,13 @@ export default function App(){
   const [bairro, setBairro] = useState("")
   const [cidade, setCidade] = useState("")
 
-  function buscarCep(){
+  async function buscarCep(){
     if(cep == ""){
       Alert.alert("Digite um CEP")
       setCep("")
       return
     }
-    if(cep.length < 8){
+    if(cep.length < 8 || cep.length > 8){
       Alert.alert("CEP inválido!\nA sequência deve conter 8 dígitos.")
       setCep("")
       return
@@ -26,6 +26,18 @@ export default function App(){
       Alert.alert("CEP inválido!\nDigite apenas números.")
       setCep("")
       return
+    }
+
+    try{
+      const response = await api.get(`/${cep}/json`)
+      setEstado(response.data.uf)
+      setDDD(response.data.ddd)
+      setLogradouro(response.data.logradouro)
+      setComplemento(response.data.complemento)
+      setBairro(response.data.bairro)
+      setCidade(response.data.localidade)
+    }catch(error){
+      console.log("Erro:" + error)
     }
   }
   

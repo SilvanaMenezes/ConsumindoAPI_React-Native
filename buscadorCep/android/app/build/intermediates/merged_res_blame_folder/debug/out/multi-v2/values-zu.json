@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.buscadorcep.app-mergeDebugResources-26:/values-zu/values-zu.xml",
+            "outputFile": "com.buscadorcep.app-mergeDebugResources-2:/values-zu/values-zu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\thini\\.gradle\\caches\\transforms-3\\13659b94c66de92d98d7f8af61234b95\\transformed\\core-1.9.0\\res\\values-zu\\values-zu.xml",

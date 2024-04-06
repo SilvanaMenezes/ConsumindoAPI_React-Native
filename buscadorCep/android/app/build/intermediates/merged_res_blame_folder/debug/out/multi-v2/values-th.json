@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.buscadorcep.app-mergeDebugResources-26:/values-th/values-th.xml",
+            "outputFile": "com.buscadorcep.app-mergeDebugResources-2:/values-th/values-th.xml",
             "map": [
                 {
                     "source": "C:\\Users\\thini\\.gradle\\caches\\transforms-3\\e1231b5b187cb579b629117f9511a862\\transformed\\jetified-react-android-0.73.6-debug\\res\\values-th\\values-th.xml",

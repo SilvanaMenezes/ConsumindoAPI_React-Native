@@ -1,9 +1,9 @@
-#Fri Apr 05 22:17:18 BRT 2024
-base.0=C\:\\consumindoAPI_React-Native\\buscadorCep\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\consumindoAPI_React-Native\\buscadorCep\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\consumindoAPI_React-Native\\buscadorCep\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.3=C\:\\consumindoAPI_React-Native\\buscadorCep\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.4=C\:\\consumindoAPI_React-Native\\buscadorCep\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Sat Apr 06 18:01:04 BRT 2024
+base.0=C\:\\ConsumindoAPI_React-Native\\buscadorCep\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\ConsumindoAPI_React-Native\\buscadorCep\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\ConsumindoAPI_React-Native\\buscadorCep\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.3=C\:\\ConsumindoAPI_React-Native\\buscadorCep\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.4=C\:\\ConsumindoAPI_React-Native\\buscadorCep\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=14/classes.dex
