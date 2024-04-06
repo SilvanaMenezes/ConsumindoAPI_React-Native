@@ -1,44 +1,52 @@
 # OSX
 #
-.DS_Store
+#-------------comentei essa parte---------------------
+# .DS_Store
+#-------------comentei essa parte---------------------
 
 # Xcode
 #
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-*.xccheckout
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
-ios/.xcode.env.local
+#-------------comentei essa parte---------------------
+# build/
+# *.pbxuser
+# !default.pbxuser
+# *.mode1v3
+# !default.mode1v3
+# *.mode2v3
+# !default.mode2v3
+# *.perspectivev3
+# !default.perspectivev3
+# xcuserdata
+# *.xccheckout
+# *.moved-aside
+# DerivedData
+# *.hmap
+# *.ipa
+# *.xcuserstate
+# ios/.xcode.env.local
+#-------------comentei essa parte---------------------
 
 # Android/IntelliJ
 #
-build/
-.idea
-.gradle
-local.properties
-*.iml
-*.hprof
-.cxx/
-*.keystore
-!debug.keystore
+#-------------comentei essa parte---------------------
+# build/
+# .idea
+# .gradle
+# local.properties
+# *.iml
+# *.hprof
+# .cxx/
+# *.keystore
+# !debug.keystore
+#-------------comentei essa parte---------------------
 
 # node.js
 #
-node_modules/
-npm-debug.log
-yarn-error.log
+#-------------comentei essa parte---------------------
+# node_modules/
+# npm-debug.log
+# yarn-error.log
+#-------------comentei essa parte---------------------
 
 # fastlane
 #
@@ -47,20 +55,30 @@ yarn-error.log
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/
 
-**/fastlane/report.xml
-**/fastlane/Preview.html
-**/fastlane/screenshots
-**/fastlane/test_output
+#-------------comentei essa parte---------------------
+# **/fastlane/report.xml
+# **/fastlane/Preview.html
+# **/fastlane/screenshots
+# **/fastlane/test_output
+#-------------comentei essa parte---------------------
 
 # Bundle artifact
-*.jsbundle
+#-------------comentei essa parte---------------------
+# *.jsbundle
+#-------------comentei essa parte---------------------
 
 # Ruby / CocoaPods
-/ios/Pods/
-/vendor/bundle/
+#-------------comentei essa parte---------------------
+# /ios/Pods/
+# /vendor/bundle/
+#-------------comentei essa parte---------------------
 
 # Temporary files created by Metro to check the health of the file watcher
-.metro-health-check*
+#-------------comentei essa parte---------------------
+# .metro-health-check*
+#-------------comentei essa parte---------------------
 
 # testing
-/coverage
+#-------------comentei essa parte---------------------
+# /coverage
+#-------------comentei essa parte---------------------
