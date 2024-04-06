@@ -1,5 +1,6 @@
 import React, {useState} from "react"
-import {StyleSheet, View , Image, TextInput, TouchableOpacity, Text} from "react-native"
+import {StyleSheet, View , Image, TextInput, TouchableOpacity, Text, Alert} from "react-native"
+import Api from "./src/services/Api"
 
 export default function App(){
   const [cep, setCep] = useState("")
@@ -10,6 +11,24 @@ export default function App(){
   const [bairro, setBairro] = useState("")
   const [cidade, setCidade] = useState("")
 
+  function buscarCep(){
+    if(cep == ""){
+      Alert.alert("Digite um CEP")
+      setCep("")
+      return
+    }
+    if(cep.length < 8){
+      Alert.alert("CEP inválido!\nA sequência deve conter 8 dígitos.")
+      setCep("")
+      return
+    }
+    if(isNaN(Number(cep))){
+      Alert.alert("CEP inválido!\nDigite apenas números.")
+      setCep("")
+      return
+    }
+  }
+  
   return(
     <View style={styles.containerPrincipal}>
       <Image
@@ -23,7 +42,7 @@ export default function App(){
           onChangeText={(texto) => setCep(texto)}
           placeholder="CEP"/>
 
-        <TouchableOpacity style={styles.botaoBuscar}>
+        <TouchableOpacity style={styles.botaoBuscar} onPress={buscarCep}>
           <Text style={styles.textoBotaoBuscar}>Buscar</Text>
         </TouchableOpacity>
       </View>
