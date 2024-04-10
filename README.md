@@ -61,7 +61,7 @@ npm run android
 - Crie uma interface gráfica simples para apresentar os dados obtidos da API.
 - Utilize elementos visuais como TextView, ListView ou RecyclerView para exibir os dados de forma organizada e amigável ao usuário.
 
-### Critérios de Avaliação:
+## Critérios de Avaliação:
 
 - Funcionalidade: A aplicação deve consumir a API corretamente e apresentar os dados de forma organizada.
 - Interface do Usuário: A interface deve ser simples, intuitiva e agradável ao usuário.
