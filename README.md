@@ -1,5 +1,5 @@
 <h1>Consumo de API com React Native</h1>
-<img src="https://raw.githubusercontent.com/gist/Giuliana09/482bbbe5f74eefef2e4d8f393944fa6e/raw/1010c5306d3428e6d1370a2f9fdb3170ae2ea239/layoutAppMobile.svg" align="right" height="440em"/>
+<img src="https://github.com/SilvanaMenezes/ConsumindoAPI_React-Native/assets/113936753/b6f5a84f-48f1-42a3-a699-5d36b4d81026" align="right" height="440em"/>
 
 ### Objetivo:
 
