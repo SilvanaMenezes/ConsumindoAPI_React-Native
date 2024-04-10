@@ -1,16 +1,16 @@
-<img align ="right" height"590em" src="https://raw.githubusercontent.com/gist/Giuliana09/482bbbe5f74eefef2e4d8f393944fa6e/raw/1010c5306d3428e6d1370a2f9fdb3170ae2ea239/layoutAppMobile.svg"/>
-<h1>Consumo de API com React Native<h1/>
+<h1>Consumo de API com React Native</h1>
+<img src="https://raw.githubusercontent.com/gist/Giuliana09/482bbbe5f74eefef2e4d8f393944fa6e/raw/1010c5306d3428e6d1370a2f9fdb3170ae2ea239/layoutAppMobile.svg" align="right" height="440em"/>
 
-<h2>Objetivo:</h2>
+### Objetivo:
 
 - Desenvolver uma aplicação Mobile que demonstre o consumo de uma API RESTful.
 
-<h2>Desenvolvimento/ Aplicação/ Validação</h2>
+### Desenvolvimento/ Aplicação/ Validação
 
 ### API Utilizada:
-- [Api Viacep](https://viacep.com.br/) - Webservice gratuito para consulta de (CEP) do Brasil.
+- [Api Viacep](https://viacep.com.br/) - Webservice gratuito para consulta de CEP.
 
-## Validação:
+### Validação:
 
 Os erros trabalhados foram em cima da documentação da api cita, são eles:
 
@@ -18,8 +18,6 @@ Os erros trabalhados foram em cima da documentação da api cita, são eles:
 - O campo não poder está vazio;
 - Deve conter somente números.
 - Para cada erro o usuario recebe uma mensagem notificando-o 
-
-###
 
 ## Aplicação
 
@@ -36,7 +34,7 @@ Para iniciar o servidor,  o seguinte comando no _raiz_ do projeto:
 npm start
 ```
 
-## Step 2: Inicie o aplicativo
+## Etapa 2: Inicie o aplicativo
 
 Deixe o Bundler rodar em seu _próprio_ terminal. Abra um _novo_ terminal na _raiz_ do projeto. Execute o seguinte comando para iniciar seu aplicativo _Android_:
 
@@ -44,10 +42,6 @@ Deixe o Bundler rodar em seu _próprio_ terminal. Abra um _novo_ terminal na _ra
 # usando npm
 npm run android
 ```
-
-Esta é uma maneira de executar o aplicativo :tada:
-
-###
 
 ## Desenvolvimento:
 
@@ -57,7 +51,7 @@ Esta é uma maneira de executar o aplicativo :tada:
 - -A API escolhida deve fornecer dados ou funcionalidades que possam ser utilizados em uma aplicação Android.
 - Leia a documentação da API para entender os endpoints disponíveis, os formatos de dados suportados e os requisitos de autenticação (se houver).
 
-###Criação da Aplicação Android:
+### Criação da Aplicação Android:
 
 - Adicione as dependências necessárias para realizar requisições HTTP e processar JSON no seu projeto.
 - Implemente a lógica para consumir a API, incluindo:
