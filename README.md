@@ -49,7 +49,6 @@ npm run android
 ### Formulamos a ideia utilizando a ferramenta Figma:
 
 <img src="/buscadorCep/assets/figma.png" align="center" height="440em">
-- desenvolvido por <a href="https://github.com/Giuliana09">Giuliana</a>
 
 ### Criação da Aplicação Android:
 
@@ -59,9 +58,8 @@ npm run android
 ### Exemplo de uso
 
 - Simulação de uso da aplicação
-<video width="320" height="240" controls>
-  <source src="/buscadorCep/assets/video.mp4" type="video/mp4">
-</video>
+
+  <img src="https://github.com/SilvanaMenezes/ConsumindoAPI_React-Native/assets/56271202/cfb0ec3c-c80f-4c0f-b818-09c6b16be409" align="center" height="440em"/>
 
 ## Material de Apoio
 
@@ -70,5 +68,5 @@ npm run android
 
 ### Desenvolvedoras
 
-<a href="https://github.com/Giuliana09">Giuliana</a>
-<a href="https://github.com/SilvanaMenezes">Silvana</a>
+- <a href="https://github.com/Giuliana09">Giuliana</a>
+- <a href="https://github.com/SilvanaMenezes">Silvana</a>
