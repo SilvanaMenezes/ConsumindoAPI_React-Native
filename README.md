@@ -1,5 +1,5 @@
 <h1>Consumo de API com React Native</h1>
-<img src="https://github.com/SilvanaMenezes/ConsumindoAPI_React-Native/assets/113936753/b6f5a84f-48f1-42a3-a699-5d36b4d81026" align="right" height="440em"/>
+<img src="/buscadorCep/assets/Tela-1.png" align="right" height="440em"/>
 
 ### Objetivo:
 
@@ -12,22 +12,22 @@
 
 ### Validação:
 
-Os erros trabalhados foram em cima da documentação da api cita, são eles:
+A documentação indica tratar os seguintes erros:
 
 - CEP no formato de _8_ dígitos;
 - O campo não poder está vazio;
-- Deve conter somente números.
-- Para cada erro o usuario recebe uma mensagem notificando-o 
+- Deve conter somente números;
+- Para cada erro deve apresentar uma mensagem para o usuário.
 
 ## Aplicação
 
->**Nota**: Importante ter o java na versão 17 ou mais recente.
+**Nota**: Importante ter o java na versão 17 ou mais recente.
 
 ## Etapa 1: Iniciar o servidor
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+Primeiro, você precisará iniciar o **Metro**, o _bundler_ JavaScript que vem _com_ o React Native.
 
-Para iniciar o servidor,  o seguinte comando no _raiz_ do projeto:
+Para iniciar o servidor, o seguinte comando na _raiz_ do projeto:
 
 ```bash
 # usando npm
@@ -36,7 +36,8 @@ npm start
 
 ## Etapa 2: Inicie o aplicativo
 
-Deixe o Bundler rodar em seu _próprio_ terminal. Abra um _novo_ terminal na _raiz_ do projeto. Execute o seguinte comando para iniciar seu aplicativo _Android_:
+Deixe o Bundler rodar em seu _próprio_ terminal. Abra um _novo_ terminal na _raiz_ do projeto.
+Execute o seguinte comando para iniciar seu aplicativo _Android_:
 
 ```bash
 # usando npm
@@ -45,25 +46,29 @@ npm run android
 
 ## Desenvolvimento:
 
-### Pesquisa e Seleção da API:
+### Formulamos a ideia utilizando a ferramenta Figma:
 
-- Pesquise e selecione uma API RESTful de seu interesse.
-- -A API escolhida deve fornecer dados ou funcionalidades que possam ser utilizados em uma aplicação Android.
-- Leia a documentação da API para entender os endpoints disponíveis, os formatos de dados suportados e os requisitos de autenticação (se houver).
+<img src="/buscadorCep/assets/figma.png" align="center" height="440em">
+- desenvolvido por <a href="https://github.com/Giuliana09">Giuliana</a>
 
 ### Criação da Aplicação Android:
 
-- Adicione as dependências necessárias para realizar requisições HTTP e processar JSON no seu projeto.
-- Implemente a lógica para consumir a API, incluindo:
+- Adicionamos as dependências necessárias para realizar as requisições HTTP e processar o JSON no projeto.
+- Implementamos a lógica para consumir a API.
 
- ### Desenvolvimento da Interface do Usuário:
+### Exemplo de uso
 
-- Crie uma interface gráfica simples para apresentar os dados obtidos da API.
-- Utilize elementos visuais como TextView, ListView ou RecyclerView para exibir os dados de forma organizada e amigável ao usuário.
+- Simulação de uso da aplicação
+<video width="320" height="240" controls>
+  <source src="/buscadorCep/assets/video.mp4" type="video/mp4">
+</video>
 
-## Critérios de Avaliação:
+## Material de Apoio
 
-- Funcionalidade: A aplicação deve consumir a API corretamente e apresentar os dados de forma organizada.
-- Interface do Usuário: A interface deve ser simples, intuitiva e agradável ao usuário.
-- Desempenho: A aplicação deve ser responsiva e funcionar sem travamentos.
-- Documentação: A documentação deve ser clara e completa, descrevendo a aplicação, a API utilizada e as instruções de uso.
+- [Stack Mobile](https://youtu.be/Ri9ZsqXxLjg?si=7D19LS4Ze96Dil0c) - React Native - Criando um App de Buscador de Cep
+- [Stack Mobile](https://youtu.be/wyT2GaU2zLg?si=G1CV5BspBKGFstxw) - React Native - Consumindo API de Cep com Axios  
+
+### Desenvolvedoras
+
+<a href="https://github.com/Giuliana09">Giuliana</a>
+<a href="https://github.com/SilvanaMenezes">Silvana</a>

@@ -68,7 +68,7 @@ export default function App(){
 
         <TextInput
           style={styles.inputDDD}
-          value={estado}
+          value={DDD}
           onChangeText={(texto) => setDDD(texto)}
           placeholder="DDD"/>
       </View>

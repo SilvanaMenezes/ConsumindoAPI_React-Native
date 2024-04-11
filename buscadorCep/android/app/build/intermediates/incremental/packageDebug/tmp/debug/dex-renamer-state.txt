@@ -1,4 +1,4 @@
-#Sat Apr 06 18:01:04 BRT 2024
+#Thu Apr 11 08:58:07 BRT 2024
 base.0=C\:\\ConsumindoAPI_React-Native\\buscadorCep\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\ConsumindoAPI_React-Native\\buscadorCep\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\ConsumindoAPI_React-Native\\buscadorCep\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
